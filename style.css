@@ -1,0 +1,323 @@
+body {
+    overflow-x: hidden;
+}
+
+.logo-txt {
+    font-weight: bold;
+}
+
+.section-1-div {
+    background-image: url(images/cover_1.jpg);
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+
+}
+
+.overlay {
+    background-image: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: 1;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+
+.first-txt {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.first-subtxt {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.btn {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 50px !important;
+     margin-top: 152px !important;
+    border: none !important;
+    width: 140px;
+    height: 55px;
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+}
+
+.our-service {
+    font-weight: bold;
+}
+
+.section-2-p {
+    font-weight: 500 !important;
+}
+
+.line {
+    background: linear-gradient(to right, #00e0fe, #1107fe) !important;
+    height: 5px !important;
+    width: 70px !important;
+ /* position: relative;
+ left: 51rem; */
+ border: none;
+ opacity: 7;
+ display: flex;
+
+}
+
+.first-h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sec-bg {
+    background-image: url(images/cover_3.jpg);
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secoverlay {
+    background-image: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: 1;
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+
+.sec-txt {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 90px;
+
+}
+
+.sec-subtxt {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 22px;
+    text-align: justify;
+}
+
+.btnz {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 100px !important;
+    border: none !important;
+    width: 73px;
+    height: 70px;
+    color: white !important;
+    font-weight: bold !important;
+
+}
+
+.third-subtxt{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;  
+    
+}
+.icon{
+
+    color: #1107fe;
+   margin-left: 22vh;
+}
+.third-bg{
+    background-image: url(images/cover_2.jpg);
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.third-overlay{
+    background-image: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: 1;
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+.sec-icon{
+    margin-left: 27px;
+}
+.third-bg h1{
+    font-weight: bold;
+}
+.third-bg p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt h1{
+    font-weight: bold;
+}
+.text a{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.text a:hover{
+  color: #073dff;
+}
+.text h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+.text h1:hover{
+   color: #073dff;;
+}
+.fourth-bg{
+    background-image: url(images/cover_3.jpg);
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.input{
+    background-color: rgba(95, 158, 160, 0) !important;
+    border: white !important;
+    border-style: solid !important;
+    height: 75px;
+    width: 30%;
+    padding-left: 20px;
+
+}
+.sub-box{
+    width: 95vh !important;
+}
+textarea{
+    width: 95vh !important;
+    height: 150px;
+    background-color: rgba(95, 158, 160, 0) !important;
+    border: white !important;
+    border-style: solid !important;
+    color: white;
+    padding-left: 20px;
+}
+.msg-btn{
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 50px !important;
+    margin-top: 190px !important;
+    border: none !important;
+    width: 140px;
+    height: 55px;
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+    margin-top: 60px !important;
+     
+}
+.msg-btn:hover{
+    transform: translateY(-5px);
+}
+.bg{
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    height: 12vh;
+    width: 100%;
+}
+.footer-txt{
+  padding-top: 34px;
+}
+.icon-div{
+    float: right;
+    position: relative;
+    bottom: 32px;
+    color: white;
+}
+.footer-icon-1:hover{
+    color: #00e0fe;
+}
+.footer-icon-2:hover{
+    color: #00e0fe;
+}
+.footer-icon-3:hover{
+    color: #00e0fe;
+}
+.footer-icon-4:hover{
+    color: #00e0fe;
+}
+.bg a{
+    color: white !important;
+}
+.review-h1{
+    font-weight: bold;
+    font-size: 17px; 
+    font-weight: bold;
+    position: relative;
+    top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 20rem;
+    width: 27rem;
+}
+
+
+
+@media(max-width:991px){
+    .first-txt {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 50px;
+        width: 100%;
+        margin-top: -87px;
+    }
+
+    .first-subtxt {
+        font-size: 14px;
+        padding-bottom: 78px;
+        width: 100%;
+
+        }
+
+        .btn{
+            margin-top: 121px !important;
+        }
+
+        p {
+            width: 100%;
+            font-size: 12px;
+        }
+
+        .sec-subtxt {
+            font-size: 11px;
+            }
+
+        .third-subtxt {
+            font-size: 13px;
+            }
+            .card-container1 {
+           
+                position: relative;
+                left: 20px; 
+            }
+            .card-container2{
+                position: relative;
+                left: 20px;
+            }
+            .input{
+                width: 49%;
+            }
+            
+}
+
