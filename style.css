@@ -325,6 +325,41 @@ textarea {
     height: 4px !important;
     width: 71px !important;
      }
+     .round-1{
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #00e0fe, #1107fe) !important;
+        border-radius: 50%;
+       margin-left: 30% !important;
+       z-index: 1;
+       position: relative;
+       bottom: 10%;  
+     }
+     .round-2{
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #00e0fe, #1107fe) !important;
+        border-radius: 50%;
+       margin-left: 35% !important;
+       z-index: 1;
+       position: relative;
+       bottom: 10%;  
+     }
+     .round-3{
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #00e0fe, #1107fe) !important;
+        border-radius: 50%;
+       margin-left: 43% !important;
+       z-index: 1;
+       position: relative;
+       bottom: 10%;  
+     }
+     .round-icon{
+        color: white;
+        margin-right: 5% !important;
+
+     }
 
 
 @media(max-width:991px) {
@@ -371,7 +406,7 @@ textarea {
 
     .card {
         height: 20rem;
-        width: 20rem;
+        width: 19rem;
     }
 
     .sec-txt {
@@ -393,7 +428,7 @@ textarea {
     }
     .line{
         position: relative;
-        left: 10rem;
+        left: 9rem;
         height: 3px !important;
         width: 64px !important;
     }
@@ -435,11 +470,36 @@ textarea {
         left: 3px;
       }
       .msg-btn{
-        left: 12vh !important;
+        left: 14vh !important;
         margin-top: 8px !important;
       }
      .icon{
         margin-left: 18vh;
      }
-
-}
+     .round-icon{
+        height: 33px;
+        width: 32px;
+    }
+    .round-1{
+        height: 80px;
+    width: 80px;
+    margin-left: 37% !important;
+    position: relative;
+    bottom: 10%;
+    }
+    .round-2{
+        height: 80px;
+    width: 80px;
+    margin-left: 37% !important;
+    position: relative;
+    bottom: 10%;
+    }
+    .round-3{
+        height: 80px;
+    width: 80px;
+    margin-left: 37% !important;
+    position: relative;
+    bottom: 10%;
+    }
+     }
+ 
